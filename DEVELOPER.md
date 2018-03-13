@@ -1,7 +1,7 @@
 ## Run tests
 ```bash
 cd test/dummy_activerecord
-rake db:migrate
+RAILS_ENV=test rake db:migrate
 cd ../..
 rake
 ```
